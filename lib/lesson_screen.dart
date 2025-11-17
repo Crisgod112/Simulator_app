@@ -17,18 +17,18 @@ class LessonScreen extends StatelessWidget {
         children: [
           // --- CAPA 1: Contenido de la Lección ---
           // Este es el contenido normal de la App 1
-          Padding(
+          SingleChildScrollView(
             padding: const EdgeInsets.all(20.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'El concepto de Inteligencia Artificial',
+                  'Manzana',
                   style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 const SizedBox(height: 20),
                 const Text(
-                  'La inteligencia artificial (IA), en las ciencias de la computación, es la disciplina que intenta replicar y desarrollar la inteligencia y sus procesos implícitos a través de computadoras...',
+                  'Dayiyo',
                   style: TextStyle(fontSize: 16, height: 1.5),
                 ),
                 const SizedBox(height: 30),
@@ -39,7 +39,84 @@ class LessonScreen extends StatelessWidget {
                     color: Colors.blueGrey,
                   ),
                 ),
+                const SizedBox(height: 30),
+
+                Text(
+                  'Banana',
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
                 const SizedBox(height: 20),
+                const Text(
+                  'Dayiyo',
+                  style: TextStyle(fontSize: 16, height: 1.5),
+                ),
+                const SizedBox(height: 30),
+                const Center(
+                  child: Icon(
+                    Icons.psychology_rounded,
+                    size: 100,
+                    color: Colors.blueGrey,
+                  ),
+                ),
+                const SizedBox(height: 30),
+
+                Text(
+                  'Naranja',
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
+                const SizedBox(height: 20),
+                const Text(
+                  'Dayiyo',
+                  style: TextStyle(fontSize: 16, height: 1.5),
+                ),
+                const SizedBox(height: 30),
+                const Center(
+                  child: Icon(
+                    Icons.psychology_rounded,
+                    size: 100,
+                    color: Colors.blueGrey,
+                  ),
+                ),
+                const SizedBox(height: 30),
+
+                Text(
+                  'Fresa',
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
+                const SizedBox(height: 20),
+                const Text(
+                  'Dayiyo',
+                  style: TextStyle(fontSize: 16, height: 1.5),
+                ),
+                const SizedBox(height: 30),
+                const Center(
+                  child: Icon(
+                    Icons.psychology_rounded,
+                    size: 100,
+                    color: Colors.blueGrey,
+                  ),
+                ),
+                const SizedBox(height: 30),
+
+                Text(
+                  'Sandía',
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
+                const SizedBox(height: 20),
+                const Text(
+                  'Dayiyo',
+                  style: TextStyle(fontSize: 16, height: 1.5),
+                ),
+                const SizedBox(height: 30),
+                const Center(
+                  child: Icon(
+                    Icons.psychology_rounded,
+                    size: 100,
+                    color: Colors.blueGrey,
+                  ),
+                ),
+                const SizedBox(height: 30),
+
                 // Es buena práctica notificar al usuario
                 const Opacity(
                   opacity: 0.7,
@@ -51,7 +128,8 @@ class LessonScreen extends StatelessWidget {
                       Text('Análisis de atención activo'),
                     ],
                   ),
-                )
+                ),
+                const SizedBox(height: 20),
               ],
             ),
           ),
